@@ -1,0 +1,53 @@
+*{
+	box-sizing:border-box;
+	padding:0px;
+	margin:0px;
+}
+.portfolio{
+	width:100%;
+}
+.portfolio img {
+    width: 100%;
+}
+body {
+    background: #000000d1;
+    padding: 11px 20px 10px 20px;
+}
+.demo-1{
+    position: relative;
+    margin: 5px;
+}
+.demo {
+    width: 0px;
+    height: 100%;
+    background: black;
+    transition: width 1s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    display: grid;
+}
+
+.demo-1:hover .demo{
+  width: 100%;
+}
+.text{
+	display: none;
+	margin: auto 0px auto 40px;
+	text-align: left;
+	align-items: center;
+
+}
+.text p{
+	color: gray;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+.text h1{
+	font-size: 27px;
+}
+.demo-1:hover .text{
+  display: block;
+}
+
